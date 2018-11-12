@@ -1,25 +1,21 @@
-/**
- * ----------------------------------------------------------
- * In case of using reserve HOST and ROUTER_MODE = "hash"
- * ----------------------------------------------------------
- * Normal operation can be used as below
- * 
- * => const routes = [
- *    {path:"/",component:Hello}
- * ]
- * 
- * -----------------------------------------------
- * 
- * In case of not using reserve HOST.
- * To reduce length of path when writting url on path
- * We will define a base path
- * 
- * @const {string} basePath
- * 
- */
-const basePath = '/vue/vue-router/public'
+import config from '../../app.config'
 
-/** ---------------------- End Config ---------------------------- */
+/**
+ * -------------
+ * Base Path 
+ * -------------
+ * 
+ * 
+ * Base path is written in app.config.js
+ * To edit base path please go to app.config.js
+ * 
+ * -------------------------------------------
+ */
+let basePath;
+if(config.ROUTER_MODE === 'history')
+    basePath = config.ROUTER_MODE   
+else
+    basePath = ''
 
 /** 
  * ----------------------------------------
