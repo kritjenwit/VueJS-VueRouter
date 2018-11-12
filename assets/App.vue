@@ -21,12 +21,10 @@
 </template>
 
 <script>
-
-import Hello from './components/HelloWorld'
+import Hello from "./components/HelloWorld";
 
 export default {
-  components: {Hello}
+  components: { Hello }
 };
 </script>
 
-<style></style>

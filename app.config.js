@@ -29,7 +29,7 @@ export default {
      * 
      * To reduce the length of path writing in route, base path is used
      */
-    basePath : '/vue/vue-router/public'
+    BASE_PATH : '/vue/vue-router/public'
 }
 
 

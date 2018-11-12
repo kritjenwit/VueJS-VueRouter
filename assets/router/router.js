@@ -12,8 +12,8 @@ import config from '../../app.config'
  * -------------------------------------------
  */
 let basePath;
-if(config.ROUTER_MODE === 'history')
-    basePath = config.ROUTER_MODE   
+if (config.ROUTER_MODE === 'history')
+    basePath = config.BASE_PATH
 else
     basePath = ''
 

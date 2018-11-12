@@ -15,8 +15,8 @@
  * 
  */
 
-import Vue from '../src/js/vue'
-import VueRouter from '../src/js/vue-router'
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
