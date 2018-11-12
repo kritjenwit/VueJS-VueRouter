@@ -1,0 +1,23 @@
+{
+  "name": "vue-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "laravel-mix": "^2.1.14"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "scss-loader": "0.0.1",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
