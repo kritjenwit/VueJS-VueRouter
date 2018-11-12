@@ -1,8 +1,8 @@
 /**
- * ----------------------------------------------
- * 
+ * ----------------------------------------------------------
  * In case of using reserve HOST and ROUTER_MODE = "hash"
- * Normal operation can be use as below
+ * ----------------------------------------------------------
+ * Normal operation can be used as below
  * 
  * => const routes = [
  *    {path:"/",component:Hello}

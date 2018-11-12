@@ -3744,10 +3744,10 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;var _typeof = 
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_About__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_About___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_About__);
 /**
- * ----------------------------------------------
- * 
+ * ----------------------------------------------------------
  * In case of using reserve HOST and ROUTER_MODE = "hash"
- * Normal operation can be use as below
+ * ----------------------------------------------------------
+ * Normal operation can be used as below
  * 
  * => const routes = [
  *    {path:"/",component:Hello}
@@ -3910,7 +3910,7 @@ exports = module.exports = __webpack_require__(17)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -4266,6 +4266,15 @@ module.exports = function listToStyles (parentId, list) {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_HelloWorld__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_HelloWorld___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_HelloWorld__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
