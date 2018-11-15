@@ -1,15 +1,11 @@
 <template>
-    <h1>Hello From About Component</h1>
+  <h1>Hello from About</h1>
 </template>
 <script>
-    export default {
-        data(){
-            return {
-
-            }
-        },
-        methods : {
-
-        }
-    }
+export default {
+  data() {
+    return {};
+  },
+  methods: {}
+};
 </script>

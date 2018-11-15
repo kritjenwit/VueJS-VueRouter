@@ -1,30 +1,33 @@
 <template>
-    <div id="navigator">
-       <nav>
-           <!-- 
-                In case of using HASH mode.
-                Please do not specify a full path.
-                
-                Please use below 
-
-                    <router-link to="/">Home</router-link>
-                    <router-link to="/about">About</router-link>
-            -->
-           <router-link to="/vue/vue-router/public/">Home</router-link>
-           <router-link to="/vue/vue-router/public/about">About</router-link>
-       </nav>
-       <div id="stage">
-           <router-view></router-view>
-       </div>
+  <div>
+    <div id="navigation">
+      <!-- <router-link to=""></router-link> -->
+      <router-link :to="basePath+'/'">Home</router-link>
+      <router-link :to="basePath+'/about'">About</router-link>
     </div>
-
+    <div id="stage">
+      <router-view></router-view>
+    </div>
+  </div>
 </template>
 
 <script>
 import Hello from "./components/HelloWorld";
+import config from '../app.config'
 
 export default {
-  components: { Hello }
+  components: { Hello },
+  data(){
+    return {
+      basePath: config.BASE_PATH
+    }
+  },
+  method: {
+
+  },
+  mounted(){
+  
+  }
 };
 </script>
 
