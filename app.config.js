@@ -18,7 +18,7 @@ export default {
      * 
      * ---------------------------------------------------------------
      */
-    ROUTER_MODE : "history",
+    ROUTER_MODE: "history",
 
 
     /**
@@ -28,8 +28,9 @@ export default {
      * 
      * 
      * To reduce the length of path writing in route, base path is used
+     * If ROUTER_MODE is selected as "hash" mode, BASE_PATH is no need to specified 
      */
-    BASE_PATH : '/vue/vue-router/public'
+    BASE_PATH: '/vue/vue-router/public'
 }
 
 
