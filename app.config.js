@@ -1,4 +1,4 @@
-export default {
+const config = {
     /**
      * --------------------------------------
      * Router Mode
@@ -29,8 +29,12 @@ export default {
      * 
      * To reduce the length of path writing in route, base path is used
      * If ROUTER_MODE is selected as "hash" mode, BASE_PATH is no need to specified 
+     * 
      */
-    BASE_PATH: '/vue/vue-router/public'
+    BASE_PATH: ''
 }
 
+/** Set base_path as Window variable */
+window.base_path = config.BASE_PATH;
 
+export default config;
